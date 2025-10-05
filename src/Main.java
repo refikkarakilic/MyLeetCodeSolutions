@@ -1,13 +1,17 @@
-import easy.missingNumber;
+import easy.judgeCircle;
 
 
 public class Main
 {public static void main(String[] args) {
 
-    missingNumber solver = new missingNumber();
 
-    int[] examples = {1, 2, 3, 4, 5, 6, 8};
-    int result = solver.missingNumber(examples);
+
+
+
+    judgeCircle solver = new judgeCircle();
+
+    String examples = "UDLRLRR";
+    boolean result = solver.judgeCircle(examples);
     System.out.println(result);
 
 }
